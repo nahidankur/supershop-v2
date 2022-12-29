@@ -1,0 +1,71 @@
+main{
+    min-height: 80vh;
+}
+
+h3 {
+    padding: 1rem 0;
+}
+
+.rating span{
+    margin: 0.1rem ;
+}
+
+h1 {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+}
+h2 {
+    font-size: 1.4rem;
+    padding: 0.5rem 0;
+    color: #4C4C4C;
+}
+
+h5{
+    color: #8d8c8c;
+}
+
+
+/* carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h2 {
+  color: #fff;
+}
+
+.carousel img {
+  height: 350px;
+  padding: 30px;
+  margin: 100px;
+  margin-left: 350px;
+  margin-right: auto;
+
+}
+.carousel a {
+  margin: 0 auto;
+}
+.circle{
+
+}
+
+.bg-color{
+    background-color: #3F4E59;
+}
+@media (max-width: 900px) {
+  .carousel-caption h2 {
+    font-size: 2.5vw;
+  }
+}
+
+@media (max-width: 900px) {
+    .carousel img{
+        margin-left: auto !important;
+    } 
+}
